@@ -1,3 +1,19 @@
+.avatar-wrapper{
+    height:100%;
+    vertical-align: center;
+}
+
+.avatar {
+    background-color: #970A00;
+    border-radius: 1em;
+    box-shadow:0px 0px 3px #454545, inset 0px 30px 2.5em #FF1000, inset 0px -30px 2.5em #FF1000;
+    transition:all 0.5s ease-in-out;
+}
+
+.avatar:hover{
+    box-shadow: 0px 0px 10px #454545, inset 0px 30px 2.5em #FF1000, inset 0px -30px 2.5em #FF1000;
+}
+
 .contacts li a.twitter:hover{
     color:rgb(29, 161, 242);
 }
