@@ -1,0 +1,35 @@
+.contacts li a.twitter:hover{
+    color:rgb(29, 161, 242);
+}
+.contacts li a.instagram:hover{
+    color:#bc2a8d;
+}
+
+.language-icon{
+    width:1.5em;
+    height:1em;
+    vertical-align: middle;
+}
+
+.interaction-element{
+    font-weight: bolder;
+    color:#FF1000;
+}
+.interaction-element:hover{
+    color:#970A00;
+    opacity:50%;
+}
+
+q::before {
+    content:"«";
+}
+q::after {
+    content: "»";
+}
+
+.date {
+    font-style: italic;
+}
+ol>li::before {
+    background:#ead8d7;
+}
