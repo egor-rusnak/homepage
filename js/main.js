@@ -25,4 +25,13 @@ $(document).ready(function(){
             setTimeout(function(){$(avatarElem).attr('src',srcStatic);},avatarMoveTimeout);
         }
     );
+
+    $('#lifeLesson').click(function(){
+        let str;
+        do {
+            str=getRandomLesson();
+        } while(str===$(this).text());
+        
+        $(this).text(str);
+    });
 });
