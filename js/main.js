@@ -13,6 +13,7 @@ const avatarMoveTimeout=200;
 function getRandomLesson(){
     let value = Math.round(Math.random()*(lessons.length-1));
     return lessons[value];
+}
 
 function playAudio(id){
     let element = document.getElementById(id);
